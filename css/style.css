@@ -18,14 +18,16 @@ h2 {
     line-height: 37px;
 }
 
-.h3 {
+h3 {
     font-weight: 500;
     font-size: 21px;
     line-height: 25px;
 }
 
 /*начало header*/
-.header, .main-section, .how_work-section {
+.header,
+.main-section,
+.how_work-section {
     padding-top: 0;
     background-color: #EEEFF1;
 }
@@ -76,25 +78,7 @@ nav ul li a:hover {
     color: #34547A;
 }
 
-.burger-icon {
-    display: none;
-    margin-top: 1px;
-    margin-left: 20px;
-
-}
-
-.burger-icon span {
-    display: block;
-    height: 7px;
-    width: 45px;
-    background-color: #34547A;
-}
-
-.burger-icon span:nth-child(2) {
-    margin: 6px 0;
-}
 /*конец header*/
-
 /*начало секции main*/
 .main-content {
     display: flex;
@@ -108,7 +92,7 @@ nav ul li a:hover {
 }
 
 .right-text {
-    padding-right: 373px;    
+    padding-right: 373px;
 }
 
 .caption {
@@ -139,8 +123,8 @@ nav ul li a:hover {
 .button:hover {
     background-color: #233e5f;
 }
-/*конец секции main*/
 
+/*конец секции main*/
 /*начало about*/
 .about-content {
     display: flex;
@@ -163,8 +147,8 @@ nav ul li a:hover {
     text-align: center;
     color: #727272;
 }
-/*конец секции about*/
 
+/*конец секции about*/
 /* начало секции projects */
 .projects-section {
     height: 250px;
@@ -198,8 +182,8 @@ nav ul li a:hover {
     line-height: 26px;
     color: #FFFFFF;
 }
-/* конец секции projects */
 
+/* конец секции projects */
 /* начало секции skills */
 .skills-section {
     height: 653px;
@@ -249,8 +233,8 @@ progress {
     width: 555px;
     height: 450px;
 }
-/* конец секции skills */
 
+/* конец секции skills */
 /* начало секции how_work */
 .how_work-section {
     height: 1004px;
@@ -268,7 +252,6 @@ progress {
     height: 147px;
     align-items: center;
 }
-
 
 .how_work {
     padding-left: 169px;
@@ -294,19 +277,20 @@ progress {
 .work-video {
     margin-left: -297px;
 }
-/* конец секции how_work */
 
+/* конец секции how_work */
 /* начало секции gallery */
 .gallery-content {
     margin: 28px auto;
     max-width: 1920px;
 }
 
-.pictures-up, .pictures-down {
+.pictures-up,
+.pictures-down {
     display: flex;
 }
 
-.picture-wrapper{
+.picture-wrapper {
     width: 480px;
     height: 480px;
     position: relative;
@@ -349,6 +333,7 @@ progress {
     margin: 30px 0;
     padding: 0px 0px 0px 0px;
 }
+
 /* конец секции gallery */
 
 /* начало футера */
@@ -371,4 +356,5 @@ progress {
 .social {
     margin-top: 10px;
 }
+
 /* конец футера */
