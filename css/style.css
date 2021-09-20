@@ -1,0 +1,374 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 79px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 37px;
+}
+
+.h3 {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+/*начало header*/
+.header, .main-section, .how_work-section {
+    padding-top: 0;
+    background-color: #EEEFF1;
+}
+
+.fixed-container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1920px;
+}
+
+.menu-content {
+    padding-top: 67px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding-left: 399px;
+}
+
+.header-menu {
+    padding-top: 6px;
+    padding-right: 367px;
+}
+
+.menu {
+    display: flex;
+}
+
+nav ul li {
+    text-transform: uppercase;
+    list-style-type: none;
+    font-size: 16px;
+    letter-spacing: 1.7px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    padding-right: 29px;
+    margin-left: 13px;
+    color: black;
+}
+
+nav ul li a:hover {
+    font-weight: 500;
+    color: #34547A;
+}
+
+.burger-icon {
+    display: none;
+    margin-top: 1px;
+    margin-left: 20px;
+
+}
+
+.burger-icon span {
+    display: block;
+    height: 7px;
+    width: 45px;
+    background-color: #34547A;
+}
+
+.burger-icon span:nth-child(2) {
+    margin: 6px 0;
+}
+/*конец header*/
+
+/*начало секции main*/
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 157px;
+}
+
+.laptop {
+    padding-top: 155px;
+    padding-left: 487px;
+}
+
+.right-text {
+    padding-right: 373px;    
+}
+
+.caption {
+    padding-top: 123px;
+}
+
+.description {
+    width: 556px;
+    margin-bottom: 51px;
+    padding-top: 35px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.button {
+    width: 225px;
+    height: 65px;
+    background-color: #34547A;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #233e5f;
+}
+/*конец секции main*/
+
+/*начало about*/
+.about-content {
+    display: flex;
+    justify-content: center;
+    padding-top: 109px;
+    padding-bottom: 25px;
+}
+
+.about {
+    padding-left: 242px;
+}
+
+.about_description {
+    width: 540px;
+    margin-bottom: 67px;
+    padding-top: 39px;
+    padding-left: 53px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+}
+/*конец секции about*/
+
+/* начало секции projects */
+.projects-section {
+    height: 250px;
+}
+
+.projects-content {
+    display: flex;
+    justify-content: space-between;
+    background-color: #34547A;
+    padding: 100px 407px 100px 405px;
+}
+
+.projects-item {
+    display: flex;
+    justify-content: space-between;
+    width: 141px;
+    height: 50px;
+}
+
+.projects-right {
+    padding-top: 3px;
+}
+
+.projects_title {
+    color: #FFFFFF;
+    margin-bottom: 3px;
+}
+
+.projects_text {
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+/* конец секции projects */
+
+/* начало секции skills */
+.skills-section {
+    height: 653px;
+}
+
+.skills-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 102px 367px;
+}
+
+.skill_title {
+    margin-bottom: 39px;
+}
+
+.left_side {
+    padding-top: 103px;
+
+}
+
+.skill_title {
+    padding-left: 19px;
+}
+
+.skill {
+    margin-bottom: -3px;
+}
+
+.skill_list {
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.skill_items {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+progress {
+    height: 4px;
+    width: 445px;
+}
+
+.face {
+    width: 555px;
+    height: 450px;
+}
+/* конец секции skills */
+
+/* начало секции how_work */
+.how_work-section {
+    height: 1004px;
+}
+
+.how_work-content {
+    display: flex;
+    justify-content: center;
+    padding-top: 101px;
+    padding-bottom: 25px;
+}
+
+.how_work-text {
+    width: 540px;
+    height: 147px;
+    align-items: center;
+}
+
+
+.how_work {
+    padding-left: 169px;
+}
+
+.how_work-description {
+    width: 540px;
+    padding-top: 39px;
+    padding-left: 25px;
+    margin-bottom: 49px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+}
+
+.work-video {
+    padding-left: 20px;
+    width: 1110px;
+    height: 600px;
+}
+
+.work-video {
+    margin-left: -297px;
+}
+/* конец секции how_work */
+
+/* начало секции gallery */
+.gallery-content {
+    margin: 28px auto;
+    max-width: 1920px;
+}
+
+.pictures-up, .pictures-down {
+    display: flex;
+}
+
+.picture-wrapper{
+    width: 480px;
+    height: 480px;
+    position: relative;
+    background-color: rgba(52, 84, 112, 0.0);
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.picture-wrapper::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(52, 84, 112);
+    opacity: 0;
+    background-image: url(/img/view.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition: opacity 0.3s;
+}
+
+.picture-wrapper img {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+}
+
+.picture-wrapper:hover::after {
+    opacity: 0.8;
+}
+
+
+.MS {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.MS-card {
+    margin: 30px 0;
+    padding: 0px 0px 0px 0px;
+}
+/* конец секции gallery */
+
+/* начало футера */
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    height: 151px;
+    padding-top: 48px;
+    background-color: #34547A;
+    color: #ffffff;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.social {
+    margin-top: 10px;
+}
+/* конец футера */
